@@ -15,10 +15,10 @@ public class BaseTest {
     public Page page;
 
     @BeforeClass
-        public void setUpTest(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.get("https://app.hubspot.com/login");
+    public void setUpTest(){
+    WebDriverManager.chromedriver().setup();
+    driver = new ChromeDriver();
+    driver.get("https://app.hubspot.com/login");
 
         try {
             Thread.sleep(2000);
